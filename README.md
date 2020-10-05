@@ -1,3 +1,7 @@
+# Hvordan har jeg lært.
+Denne tutorial: https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+Andras lærte os om docker-compose.yml
+
 # Hvordan brugte jeg docker til et express projekt.
 Jeg har lavet en Dockerfile, som indeholder den information, som Docker skal bruge til, at lave en container, som kan kører af sig selv. </br>
 I min dockerfile https://github.com/simo215d/Express_Docker_Test1/blob/master/Dockerfile har jeg valg node:12, som mit image. </br>
