@@ -8,6 +8,7 @@ Jeg bruger ikke: CMD [ "node", "server.js" ], fordi jeg bruger express og expres
 # Sådan kan du lave build og run en container med docker
 Når man så vil builde et image, hvor vi kan kører en container fra så kan man bruge denne kommando:</br>
 docker build -t <your username>/express-docker-test .</br>
+Når man vil køre den skriver man: docker run -p <pulic_port>:<private_port> -d <your username>/express-docker-test</br>
 Men man kan gøre det lettere hvis man tilføjer en docker-compose.yml fil, som findes her: https://github.com/simo215d/Express_Docker_Test1/blob/master/docker-compose.yml</br>
 Så behøver man kun denne kommando:</br>
 docker-compose up -d</br>
