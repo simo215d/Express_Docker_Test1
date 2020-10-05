@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  express-docker-test:
+    build: .
+    image: simo215d/express-docker-test:latest
+    ports:
+      - "8000:8080"
