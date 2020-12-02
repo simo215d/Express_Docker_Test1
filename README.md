@@ -18,3 +18,6 @@ Så behøver man kun denne kommando:</br>
 docker-compose up -d</br>
 Jeg sætter -d på til sidst for at få kontrollen tilbage i terminalen. (ellers virker det ikke for mig).</br>
 Så bør containeren køre og man kan gå til http://localhost:8000/ og se hjemmesiden. Porten kan man også finde i sin .yml fil.</br>
+
+
+bruger docker build, hvis du vil override en gamme container tror jeg.
