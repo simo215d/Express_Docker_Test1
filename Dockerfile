@@ -1,3 +1,4 @@
+# FROM means that we inherit a node image so that we have node already installe inside the container, so we can run npm install and npm start!
 FROM node:12
 
 # Create app directory
