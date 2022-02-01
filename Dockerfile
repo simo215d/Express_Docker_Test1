@@ -16,5 +16,6 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+# EXPOSE is just meta data and is useless. its just if you want to inform other people about this port you might prefer to run the instance on.
 EXPOSE 8080
 CMD [ "npm" , "start" ]
